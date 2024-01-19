@@ -1,1 +1,125 @@
-trajda.li
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TrajDali</title>
+        <style>
+            body {
+                margin: 0px;
+                color: rgb(93, 93, 117);
+                font-family: "Open Sans", sans-serif;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.5;
+                background-color: rgb(255, 255, 255);
+            }
+
+            .background {
+                background-color: rgb(113, 122, 151);
+                background-position: center center;
+                background-size: cover;
+                background-image: url(background-sky.jpg);
+                padding: 1rem;
+                min-height: 100vh;
+            }
+
+            .background::before {
+                content: "";
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                top: 0px;
+                left: 0px;
+                z-index: 0;
+                backdrop-filter: blur(20px);
+                opacity: 0.7;
+            }   
+            
+            main {
+                width: 375px;
+                margin: auto;
+            }
+
+            .link-container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            .heading-image {
+                width: 100%;
+                height: 240px;
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                justify-content: center;
+            }
+
+            .heading-image img {
+                width: 240px;
+                height: auto;
+                max-width: 100%;
+                max-height: 100%;
+                border-radius: 8px;
+                box-shadow: rgba(36, 40, 51, 0.26) 0px 3px 30px
+            }
+
+            .heading-logo {
+                width: 100%;
+                height: 240px;
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                justify-content: center;
+                margin-top: -115px;
+            }
+
+            .heading-logo img {
+                width: 140px;
+                height: auto;
+                max-width: 100%;
+                max-height: 100%;
+                border-radius: 8px;
+            }
+
+            .mix-section {
+                width: 100%;
+                position: relative;
+                padding-bottom: 56.25%;
+                margin-bottom: 1.5rem;
+            }
+
+            .mix-section iframe {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background">
+            <main>
+                <div class="link-container">
+                    <section class="heading-section">
+                        <div class="heading-image">
+                            <img src="background.jpg" alt="Heading Image">
+                        </div>
+                        <div class="heading-logo">
+                            <img src="logo.png" alt="TrajDali Logo">
+                        </div>
+                    </section>
+                    <section class="mix-section">
+                        <h2>Mixes</h2>
+                        <iframe src="https://www.youtube.com/embed/cgH_8w68fTc?si=4TtTwIGsB2kzcNCt&amp;controls=0" title="YouTube Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </section>
+                    <section class="releases-section">
+                        <h2>Releases</h2>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
