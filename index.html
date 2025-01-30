@@ -61,11 +61,11 @@
                 left: 0px;
             }
 
-            .release {
+            .release, .compilation {
                 width: 100%;
             }
 
-            .release img {
+            .release img, .compilation img{
                 max-width: 100%;
             }
 
@@ -91,6 +91,26 @@
                 text-decoration: none;
                 color: black;
             }
+
+            .mixes-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;                
+            }
+
+            .mixes-header-name {
+                flex-basis: 150%;                
+            }
+
+            .mixes-header-link {
+                display: inline-block;
+                width: 200px;
+                height: 24px;                
+            }
+
+            #end-of-the-page-room {
+                height: 24px;
+            }            
         </style>
     </head>
     <body>
@@ -106,8 +126,18 @@
 
             <section id="mix-section">
                 <h2 class="section-heading">Mixes</h2>
+                <div class="mixes-header">
+                    <h4 class="mixes-header-name">Contemporary Alt Mix //</h4>
+                    <a class="view-all-link mixes-header-link" href="contemporary-alt-mix" class="view-all-link">View</a>
+                </div>
+                <iframe id="contemporary-alt-mix" src="https://www.youtube.com/embed/lZtCEpSlR_Y?si=FhY6fzxIO8_hEScC&amp;controls=0" title="TrajDali - Contemporary Alt Mix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+                <hr />
+                <div class="mixes-header">
+                    <h4 class="mixes-header-name">Made In Yugoslavia //</h4>
+                    <a class="view-all-link mixes-header-link" href="made-in-yugoslavia" class="view-all-link">View</a>
+                </div>
                 <iframe id="made-in-yugoslavia" src="https://www.youtube.com/embed/cgH_8w68fTc?si=4TtTwIGsB2kzcNCt&amp;controls=0" title="TrajDali - Made in Yugoslavia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <a href="" class="view-all-link">View All</a>
+                <!-- <a href="" class="view-all-link">View All</a> -->
             </section>
 
             <section id="release-section">
@@ -147,6 +177,28 @@
 
                 <a href="" class="view-all-link">View All</a>
             </section>
+<!-- 
+            <section id="compilation-section">
+                <h2 class="section-heading">Compilations</h2>
+
+                <div class="compilations">
+                    <div class="compilation">
+                        <div class="compilation-cover-art">
+                            <img src="til-the-sun-comes-up-art-small.jpg" alt="TrajDali - Contemporary Alt Mix" />
+                        </div>
+                        <h3>Contemporary Alt Mix</h3>
+                    </div>
+
+                    <div class="compilation">
+                        <div class="compilation-cover-art">
+                            <img src="til-the-sun-comes-up-art-small.jpg" alt="TrajDali - Made In Yugoslavia" />
+                        </div>
+                        <h3>Made In Yugoslavia</h3>
+                    </div>
+                </div>
+            </section> -->
+
+            <section id="end-of-the-page-room"></section>            
         </main>
     </body>
 </html>
