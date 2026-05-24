@@ -1,0 +1,87 @@
+[
+  {
+    "slug": "contemporary-alt",
+    "title": "Contemporary Alt Mix",
+    "youtubeId": "lZtCEpSlR_Y",
+    "tracklist": [
+      "Teya Dora - Ramonda (TrajDali Contemporary Alt Mix)",
+      "Dram - Ona (TrajDali Contemporary Alt Mix)",
+      "Retrospektiva - Hodam (TrajDali Contemporary Alt Mix)",
+      "Buč Kesidi - Nema ljubavi u klubu (TrajDali CntmpryAlt Demo)",
+      "Ljubičice - Opet (TrajDali Contemporary Alt Mix)",
+      "Bojana Vunturišević - Ljubav (TrajDali Contemporary Alt Mix)",
+      "Filip Baloš - Mekano (TrajDali Contemporary Alt Mix)"
+    ]
+  },
+  {
+    "slug": "contemporary-alt-mix",
+    "title": "Contemporary Alt Mix",
+    "youtubeId": "lZtCEpSlR_Y",
+    "tracklist": [
+      "Teya Dora - Ramonda (TrajDali Contemporary Alt Mix)",
+      "Dram - Ona (TrajDali Contemporary Alt Mix)",
+      "Retrospektiva - Hodam (TrajDali Contemporary Alt Mix)",
+      "Buč Kesidi - Nema ljubavi u klubu (TrajDali CntmpryAlt Demo)",
+      "Ljubičice - Opet (TrajDali Contemporary Alt Mix)",
+      "Bojana Vunturišević - Ljubav (TrajDali Contemporary Alt Mix)",
+      "Filip Baloš - Mekano (TrajDali Contemporary Alt Mix)"
+    ],
+    "links": [
+      { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/sets/contemporary-alt-mix" },
+      { "label": "Listen on Mixcloud", "url": "https://www.mixcloud.com/TrajDali/trajdali-contemporary-alt-mix" }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "made-in-yugoslavia",
+    "title": "Made In Yugoslavia",
+    "youtubeId": "cgH_8w68fTc",
+    "tracklist": [
+      "Meri Cetinić - Kao Rijeka Svome Moru (TrajDali Refresh)",
+      "Dejan Petković - Volim Prave Stvar (TrajDali Refresh)",
+      "Micky Milan - Quand Tu Danses (TrajDali Refresh)",
+      "Zorica Milosavljević - Disko Par (TrajDali Refresh)",
+      "TrajDali x Boom Selekcija - Neko Kao Ja",
+      "Neca Falk - Zaspao Si U Mojoj Kosi (TrajDali Refresh)"
+    ],
+    "links": [
+      { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/sets/made-in-yugoslavia" },
+      { "label": "Listen on Mixcloud", "url": "https://www.mixcloud.com/TrajDali/trajdali-made-in-yugoslavia" }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "nostalgia-mix",
+    "title": "Nostalgia Mix",
+    "youtubeId": "PEdNcVlwQxk",
+    "tracklist": [
+      "Herd & Fitz - I Just Can't Get Enough (Freemasons Remix)",
+      "Shakedown - At Night (Kid Creme Club Mix)",
+      "Mousse T. ft Emma Lanford - Right About Now (Fuzzy Hair Vocal Mix)",
+      "Bon Garcon - Freek U (Full Intention Dub Mix)",
+      "Junior Jack - Thrill Me (Original Version By Junior Jack)",
+      "C-Mos - 2 Million Ways (Axwell Remix)"
+    ],
+    "links": [
+      { "label": "Listen on Mixcloud", "url": "https://www.mixcloud.com/TrajDali/trajdali-nostalgia-mix" }
+    ]
+  },
+  {
+    "slug": "new-love",
+    "title": "New Love",
+    "youtubeId": "eGnzWWB4miE",
+    "links": [
+      { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/new-love" },
+      { "label": "Listen on Bandcamp", "url": "https://trajdali.bandcamp.com/track/new-love" }
+    ]
+  },
+  {
+    "slug": "overstand",
+    "title": "Overstand",
+    "youtubeId": "QFSSVWP0mNo",
+    "links": [
+      { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/overstand" },
+      { "label": "Listen on Bandcamp", "url": "https://trajdali.bandcamp.com/track/overstand" }
+    ]
+  }
+]

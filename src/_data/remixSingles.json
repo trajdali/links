@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "ljubicice-opet",
+    "pageTitle": "Ljubicice - Opet (TrajDali Contemporary Alt Mix)",
+    "artist": "Ljubicice",
+    "track": "Opet",
+    "version": "(TrajDali Contemporary Alt Mix)",
+    "coverArt": "ljubicice-opet/ljubicice-opet-trajdali-contemporary-alt-mix.jpg",
+    "links": [
+      {
+        "service": "soundcloud",
+        "logo": "soundcloud.png",
+        "url": "https://soundcloud.com/trajdali/ljubicice-opet-trajdali-contemporary-alt-mix"
+      },
+      {
+        "service": "youtube",
+        "logo": "youtube.png",
+        "url": "https://www.youtube.com/watch?v=m_YoFt6AlgY"
+      }
+    ]
+  },
+  {
+    "slug": "ramonda",
+    "pageTitle": "Teya Dora - Ramonda (TrajDali Contemporary Alt Mix)",
+    "artist": "Teya Dora",
+    "track": "Ramonda",
+    "version": "(TrajDali Contemporary Alt Mix)",
+    "coverArt": "ramonda/teya-dora-ramonda-trajdali-c-a-mix-info.jpg",
+    "links": [
+      {
+        "service": "soundcloud",
+        "logo": "soundcloud.png",
+        "url": "https://soundcloud.com/trajdali/teya-dora-ramonda-trajdali-contemporary-alt-mix"
+      },
+      {
+        "service": "youtube",
+        "logo": "youtube.png",
+        "url": "https://www.youtube.com/watch?v=Yw0gW0ay5Xg"
+      }
+    ]
+  }
+]

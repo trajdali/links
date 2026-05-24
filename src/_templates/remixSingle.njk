@@ -1,0 +1,30 @@
+---
+pagination:
+  data: remixSingles
+  size: 1
+  alias: item
+permalink: "/{{ item.slug }}/"
+layout: base-remix.njk
+eleventyComputed:
+  title: "{{ item.pageTitle }}"
+---
+
+<heading>
+    <div id="heading-image">
+        <img src="/{{ item.coverArt }}" alt="{{ item.pageTitle }}" />
+    </div>
+    <div id="heading-title">
+        <div id="heading-title-artist">{{ item.artist }}</div>
+        <div id="heading-title-track">{{ item.track }}</div>
+        <div id="heading-title-version">{{ item.version }}</div>
+    </div>
+    <section id="selection-info">Select a service to listen/watch</section>
+    <section id="links">
+        {% for link in item.links %}
+        <div id="{{ link.service }}" class="listen-link">
+            <img src="/{{ link.logo }}" alt="{{ link.service }}" />
+            <a href="{{ link.url }}" class="listen-button">Listen</a>
+        </div>
+        {% endfor %}
+    </section>
+</heading>

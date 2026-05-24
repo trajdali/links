@@ -1,0 +1,52 @@
+---
+layout: base.njk
+title: TrajDali
+permalink: "/"
+---
+
+<heading>
+    <div id="heading-image">
+        <img src="/background.jpg" alt="Heading Image" />
+    </div>
+    <div id="heading-logo">
+        <img src="/logo-black.png" alt="TrajDali Logo" />
+    </div>
+</heading>
+
+<section id="mix-section">
+    <h2 class="section-heading">Mixes</h2>
+    {% for mix in mixes | featured %}
+    <div class="mixes-header">
+        <h4 class="mixes-header-name">{{ mix.title }} //</h4>
+        <a class="view-all-link mixes-header-link" href="/{{ mix.slug }}">View</a>
+    </div>
+    <iframe id="{{ mix.slug }}" class="mix-embed" src="https://www.youtube.com/embed/{{ mix.youtubeId }}?controls=0" title="TrajDali - {{ mix.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    {% if not loop.last %}<hr />{% endif %}
+    {% endfor %}
+</section>
+
+<section id="release-section">
+    <h2 class="section-heading">Releases</h2>
+    <div class="releases">
+        {% for release in releases %}
+        <div class="release">
+            {% if release.slug %}
+            <a href="/{{ release.slug }}/">
+                <div class="release-cover-art">
+                    <img src="/{{ release.coverArt }}" alt="TrajDali - {{ release.title }}" />
+                </div>
+                <h3>{{ release.title }}</h3>
+            </a>
+            {% else %}
+            <div class="release-cover-art">
+                <img src="/{{ release.coverArt }}" alt="TrajDali - {{ release.title }}" />
+            </div>
+            <h3>{{ release.title }}</h3>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    <a href="" class="view-all-link">View All</a>
+</section>
+
+<section id="end-of-the-page-room"></section>

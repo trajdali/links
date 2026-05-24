@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+        <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+
+            main {
+                width: 320px;
+                margin: auto;
+                margin-top: 20px;
+            }
+
+            #heading-image {
+                width: 100%;
+                padding: 10px;
+            }
+
+            #heading-image img {
+                max-width: calc(100% - 20px);
+            }
+
+            #heading-logo {
+                width: 100%;
+                position: relative;
+            }
+
+            #heading-logo img {
+                width: 140px;
+                height: auto;
+                position: absolute;
+                top: -343px;
+                right: 14px;
+            }
+
+            h2 {
+                padding-left: 16px;
+                position: relative;
+                border-bottom: 1px solid #231f20;
+                color: #231f20;
+            }
+
+            h2::before {
+                color: #231f20;
+                content: "//";
+                width: 10px;
+                height: 30px;
+                position: absolute;
+                left: 0px;
+            }
+
+            .release, .compilation {
+                width: 100%;
+            }
+
+            .release img, .compilation img {
+                max-width: 100%;
+            }
+
+            h3 {
+                margin-top: 5px;
+                text-align: right;
+            }
+
+            .view-all-link {
+                display: block;
+                width: 100%;
+                text-decoration: none;
+                font-size: 1.2rem;
+                text-align: center;
+                margin-top: 20px;
+                position: relative;
+                color: black;
+                border: 1px solid black;
+                border-radius: 4px;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .mix-embed {
+                width: 100%;
+            }
+
+            .mixes-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+            }
+
+            .mixes-header-name {
+                flex-basis: 150%;
+            }
+
+            .mixes-header-link {
+                display: inline-block;
+                width: 200px;
+                height: 24px;
+            }
+
+            #end-of-the-page-room {
+                height: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            {{ content | safe }}
+        </main>
+    </body>
+</html>
