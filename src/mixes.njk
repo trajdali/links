@@ -1,0 +1,28 @@
+---
+layout: base.njk
+title: TrajDali - Mixes
+permalink: "/mixes/"
+---
+
+<heading>
+    <div id="heading-image">
+        <img src="/background.jpg" alt="Heading Image" />
+    </div>
+    <div id="heading-logo">
+        <img src="/logo-black.png" alt="TrajDali Logo" />
+    </div>
+</heading>
+
+<section id="mix-section">
+    <h2 class="section-heading">Mixes</h2>
+    {% for mix in mixes %}
+    <div class="mixes-header">
+        <h4 class="mixes-header-name">{{ mix.title }} //</h4>
+        <a class="view-all-link mixes-header-link" href="/{{ mix.slug }}">View</a>
+    </div>
+    <iframe id="{{ mix.slug }}" class="mix-embed" src="https://www.youtube.com/embed/{{ mix.youtubeId }}?controls=0" title="TrajDali - {{ mix.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    {% if not loop.last %}<hr />{% endif %}
+    {% endfor %}
+</section>
+
+<section id="end-of-the-page-room"></section>

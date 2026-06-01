@@ -1,19 +1,72 @@
 [
   {
-    "title": "Til The Sun Comes Up",
-    "coverArt": "til-the-sun-comes-up-art-small.jpg"
-  },
-  {
-    "title": "Can't Do Without",
-    "coverArt": "cant-do-without-cover-art-small.jpg"
-  },
-  {
-    "title": "Simple Things",
-    "coverArt": "simple-things-cover-art-small.jpg"
-  },
-  {
     "slug": "keep-trying",
     "title": "Keep Trying",
-    "coverArt": "keep-trying-cover-small.jpg"
+    "coverArt": "keep-trying-cover-small.jpg",
+    "year": "2023",
+    "youtubeId": "HZJjBZJ_iz0",
+    "links": [
+      { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/keep-trying" },
+      { "label": "Listen on Bandcamp", "url": "https://trajdali.bandcamp.com/track/keep-trying" }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "simple-things",
+    "title": "Simple Things",
+    "coverArt": "simple-things-cover-art-small.jpg",
+    "year": "2023",
+    "youtubeId": "YSVSv1B6pBM",
+    "links": [
+      { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/simple-things" },
+      { "label": "Listen on Bandcamp", "url": "https://trajdali.bandcamp.com/track/simple-things" }
+    ],    
+    "featured": true
+  },
+  {
+    "slug": "cant-do-without",
+    "title": "Can't Do Without",
+    "coverArt": "cant-do-without-cover-art-small.jpg",
+    "youtubeId": "alO3DjAszMc",
+    "year": "2023",
+    "links": [
+      { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/cant-do-without" },
+      { "label": "Listen on Bandcamp", "url": "https://trajdali.bandcamp.com/track/cant-do-without" }
+    ],
+    "featured": true,
+    "logoGlow": true
+  },
+  {
+    "slug": "til-the-sun-comes-up",
+    "title": "Til The Sun Comes Up",
+    "coverArt": "til-the-sun-comes-up-art-small.jpg",
+    "links": [
+      { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/til-the-sun-comes-up" },
+      { "label": "Listen on Bandcamp", "url": "https://trajdali.bandcamp.com/track/til-the-sun-comes-up" }
+    ],
+    "year": "2023"
+  },
+  {
+    "slug": "new-love",
+    "title": "New Love",
+    "year": "2025",
+    "coverArt": "new-love-cover-art-small.jpg",
+    "youtubeId": "eGnzWWB4miE",
+    "links": [
+      { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/new-love" },
+      { "label": "Listen on Bandcamp", "url": "https://trajdali.bandcamp.com/track/new-love" }
+    ],
+    "logoGlow": true
+  },
+  {
+    "slug": "overstand",
+    "title": "Overstand",
+    "coverArt": "overstand-cover-art-small.jpg",
+    "year": "2025",
+    "youtubeId": "QFSSVWP0mNo",
+    "links": [
+      { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/overstand" },
+      { "label": "Listen on Bandcamp", "url": "https://trajdali.bandcamp.com/track/overstand" }
+    ]
   }
 ]

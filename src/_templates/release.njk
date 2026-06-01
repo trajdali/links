@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: releasePages
+  data: releases
   size: 1
   alias: release
 permalink: "/{{ release.slug }}/"
@@ -11,12 +11,18 @@ eleventyComputed:
 
 <heading>
     <div id="heading-image">
-        <img src="/{{ release.headerImage }}" alt="TrajDali - {{ release.title }}" />
+        <img src="/{{ release.coverArt }}" alt="TrajDali - {{ release.title }}" />
     </div>
     <div id="heading-logo">
-        <img src="/logo-black.png" alt="TrajDali Logo" />
+        <img src="/logo-black.png" alt="TrajDali Logo"{% if release.logoGlow %} class="logo-outline"{% endif %} />
     </div>
 </heading>
+
+{% if release.youtubeId %}
+<section id="youtube-section">
+    <iframe class="mix-embed" src="https://www.youtube.com/embed/{{ release.youtubeId }}?controls=0" title="TrajDali - {{ release.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
+{% endif %}
 
 {% if release.links %}
 <section id="additional-links">

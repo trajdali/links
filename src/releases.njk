@@ -1,0 +1,50 @@
+---
+layout: base.njk
+title: TrajDali - Releases
+permalink: "/releases/"
+---
+
+<heading>
+    <div id="heading-image">
+        <img src="/background.jpg" alt="Heading Image" />
+    </div>
+    <div id="heading-logo">
+        <img src="/logo-black.png" alt="TrajDali Logo" />
+    </div>
+</heading>
+
+<section id="release-section">
+    <h2 class="section-heading">Releases</h2>
+    <div class="releases">
+        {% for release in releases %}
+        <div class="release">
+            {% if release.slug %}
+            <a href="/{{ release.slug }}/">
+                {% if release.coverArt %}
+                <div class="release-cover-art">
+                    <img src="/{{ release.coverArt }}" alt="TrajDali - {{ release.title }}" />
+                </div>
+                {% endif %}
+                <div class="release-meta">
+                    <span class="release-year">{{ release.year }}</span>
+                    <h3>{{ release.title }}</h3>
+                </div>
+            </a>
+            {% else %}
+            {% if release.coverArt %}
+            <div class="release-cover-art">
+                <img src="/{{ release.coverArt }}" alt="TrajDali - {{ release.title }}" />
+            </div>
+            {% endif %}
+            <div class="release-meta">
+                <span class="release-year">{{ release.year }}</span>
+                <h3>{{ release.title }}</h3>
+            </div>
+            {% endif %}
+        </div>
+        {% if not loop.last %}<hr />{% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+<section id="end-of-the-page-room"></section>

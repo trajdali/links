@@ -15,6 +15,9 @@ module.exports = function (eleventyConfig) {
   // Filter: keep only items marked as featured
   eleventyConfig.addFilter("featured", (items) => items.filter((i) => i.featured));
 
+  // Filter: return first N items
+  eleventyConfig.addFilter("limit", (items, n) => items.slice(0, n));
+
   return {
     dir: {
       input: "src",

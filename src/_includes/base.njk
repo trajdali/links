@@ -41,6 +41,15 @@
                 right: 14px;
             }
 
+            .logo-outline {
+                filter:
+                    drop-shadow(-1px  0px 0 white)
+                    drop-shadow( 1px  0px 0 white)
+                    drop-shadow( 0px -1px 0 white)
+                    drop-shadow( 0px  1px 0 white)
+                    drop-shadow(0 0 1px rgba(255,255,255,0.1));
+            }
+
             h2 {
                 padding-left: 16px;
                 position: relative;
@@ -57,12 +66,19 @@
                 left: 0px;
             }
 
+            hr {
+                border: none;
+                border-top: 1px solid #e0e0e0;
+                margin: 10px 0;
+            }
+
             .release, .compilation {
                 width: 100%;
             }
 
             .release img, .compilation img {
                 max-width: 100%;
+                display: block;
             }
 
             h3 {
@@ -106,6 +122,25 @@
                 display: inline-block;
                 width: 200px;
                 height: 24px;
+            }
+
+            .release-meta {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                margin-top: 8px;
+                padding: 0 2px;
+            }
+
+            .release-meta h3 {
+                margin: 0;
+                text-align: right;
+            }
+
+            .release-year {
+                color: #999;
+                font-size: 0.85rem;
+                letter-spacing: 0.03em;
             }
 
             #end-of-the-page-room {
