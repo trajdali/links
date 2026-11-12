@@ -1,5 +1,34 @@
 [
   {
+    "slug": "made-in-yugoslavia-2",
+    "title": "Made In Yugoslavia 2",
+    "youtubeId": "HvjD9omrb7E",
+    "tracklist": [
+      "Zdenka Kovačiček - Jutro",
+      "TrajDali - Ljubav (TrajDali Refactor)",
+      "Jadranka Stojaković - O tom potom (TrajDali Refresh)",
+      "Leo Martin - Tajna (TrajDali Refresh)",
+      "Zdenka Kovačiček - Dragi mi je lijep ko slika (TrajDali Refresh)",
+      "Meri Cetinić - Probudi moju ljubav (TrajDali Edit)"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "overstand-album-mix",
+    "title": "Overstand Album Mix",
+    "youtubeId": "8nu6a_uL8FY",
+    "tracklist": [
+      "TrajDali - In your eyes, in your smile",
+      "TrajDali - Detours",
+      "TrajDali - Jonderluk",
+      "TrajDali - Maktub",
+      "TrajDali - Remember the time",
+      "TrajDali - Overstand pt.2",
+      "TrajDali - Overstand pt.3 (Outro)"
+    ],
+    "featured": true
+  },
+  {
     "slug": "nostalgia-mix",
     "title": "Nostalgia Mix",
     "youtubeId": "PEdNcVlwQxk",
@@ -14,7 +43,7 @@
     "links": [
       { "label": "Listen on Mixcloud", "url": "https://www.mixcloud.com/TrajDali/trajdali-nostalgia-mix" }
     ],
-    "featured": true
+    "featured": false
   },  
   {
     "slug": "contemporary-alt-mix",
@@ -33,7 +62,7 @@
       { "label": "Listen on Soundcloud", "url": "https://soundcloud.com/trajdali/sets/contemporary-alt-mix" },
       { "label": "Listen on Mixcloud", "url": "https://www.mixcloud.com/TrajDali/trajdali-contemporary-alt-mix" }
     ],
-    "featured": true
+    "featured": false
   },
   {
     "slug": "made-in-yugoslavia",
